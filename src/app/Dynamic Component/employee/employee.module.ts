@@ -8,13 +8,19 @@ import { ListComponent } from './components/list/list.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { OverlayModule } from '@angular/cdk/overlay'
+import { MaskingNumberDirective } from './masking-number.directive';
+import { CurrencyPipe } from './pipes/currency.pipe';
+// ------------------
+import { InfiniteScrollModule } from "ngx-infinite-scroll";
 
 
 @NgModule({
   declarations: [
     EmployeeComponent,
     FormComponent,
-    ListComponent
+    ListComponent,
+    MaskingNumberDirective,
+    CurrencyPipe
   ],
   imports: [
     CommonModule,
@@ -22,7 +28,8 @@ import { OverlayModule } from '@angular/cdk/overlay'
     HttpClientModule,
     ReactiveFormsModule,
     FormsModule,
-    OverlayModule
+    OverlayModule,
+    InfiniteScrollModule
   ]
 })
 export class EmployeeModule { }

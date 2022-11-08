@@ -3,5 +3,359 @@
     {
       "id": 1
     }
+  ],
+  "employee": [
+    {
+      "id": 4,
+      "fname": "Ayushi",
+      "lname": "Dhimmar",
+      "email": "ius@kuchbhi.com",
+      "salary": "5",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 5
+    },
+    {
+      "fname": "Amresh",
+      "lname": "Prasad",
+      "email": "dkjslshf",
+      "salary": "78",
+      "mobile": "(454) (587)-58764",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 8,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 9,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 10,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 13,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 14,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 15,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 16
+    },
+    {
+      "id": 17,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 18,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 19,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 20,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 21
+    },
+    {
+      "id": 22,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 23,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 24,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 25,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 26
+    },
+    {
+      "id": 27,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 28,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 29,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 30,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 31
+    },
+    {
+      "id": 32,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 33,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 34,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 35,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 36
+    },
+    {
+      "id": 37,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 38,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 39,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "4",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 40,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 41
+    },
+    {
+      "id": 42,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "2",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 43,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "3",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "id": 45,
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "salary": "5",
+      "email": "ius@kuchbhi.com",
+      "mobile": "(545) (454)-5454"
+    },
+    {
+      "fname": "Ayy",
+      "lname": "jsa",
+      "email": "jdaskk",
+      "salary": "45",
+      "mobile": "(545) (454)-5454",
+      "id": 46
+    },
+    {
+      "fname": "Ayush",
+      "lname": "Dhimmar",
+      "email": "iaayush@gmail.com",
+      "salary": "55",
+      "mobile": "(454) (545)-45455",
+      "id": 47
+    },
+    {
+      "fname": "Amresh",
+      "lname": "Prasad",
+      "email": "ksaflkfhsdf",
+      "salary": "545",
+      "mobile": "(145) (454)-54544",
+      "id": 48
+    }
   ]
 }

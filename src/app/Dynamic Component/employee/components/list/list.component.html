@@ -1,3 +1,50 @@
 <div class="h-100 bg-primary bg-opacity-10">
-    <button class="btn btn-primary" (click)="openForm()">New Emplyoee</button>
+    <div>
+        <button class="btn btn-primary my-5 ms-5" (click)="open()">New Emplyoee</button>
+    </div>
+    <div class="mx-5 mb-5 overflow-auto" style="height: 700px;" infinite-scroll [infiniteScrollDistance]="2"
+        [infiniteScrollUpDistance]="2" [infiniteScrollThrottle]="0" [scrollWindow]="false" (scrolled)="onScroll()">
+        <!-- infinite-scroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="0" (scrolled)="onScroll()" -->
+        <table class="table table-primary table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Full Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Salary</th>
+                    <th scope="col">Mobile</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="p-3" *ngFor="let item of employeeList">
+                    <td>{{item.id }}</td>
+                    <td>{{item.fname }}</td>
+                    <td>{{item.email}}</td>
+                    <td>{{item.salary | currency : 82}}</td>
+                    <td>{{item.mobile}}</td>
+                    <td>
+                        <button class="btn btn-warning" (click)="editEmp(item)">Edit</button>
+                        <button class="btn btn-danger ms-3" (click)="openDeletePopup(content)">Delete</button>
+                    </td>
+                    <ng-template #content let-modal>
+                        <div class="modal-header">
+                            <h4 class="modal-title">Confirmation of Delete</h4>
+                            <button type="button" class="btn-close" aria-label="Close"
+                                (click)="modal.dismiss('Cross click')"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to Delete?&hellip;</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                (click)="modal.close('Close click')">No</button>
+                            <button type="button" class="btn btn-secondary"
+                                (click)="modal.close('Close click'); deleteEmp(item.id)">Yes</button>
+                        </div>
+                    </ng-template>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>

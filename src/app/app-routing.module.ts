@@ -6,11 +6,11 @@ import { AuthGuard } from './_helpers/auth.guard';
 
 const routes: Routes = [
   //----------for jwt login--------------------
-  // { path: 'register', component: RegisterComponent, canActivate: [AuthGuard] },
-  // { path: '', pathMatch: 'full', redirectTo: 'login' },
-  // { path: 'login', component: LoginComponent },
+  { path: 'register', component: RegisterComponent, canActivate: [AuthGuard] },
+  { path: '', pathMatch: 'full', redirectTo: 'login' },
+  { path: 'login', component: LoginComponent },
   //------for - dynamic overlay-------------------
-  { path: '', pathMatch: 'full', redirectTo: 'employee' },
+  // { path: '', pathMatch: 'full', redirectTo: 'employee' },
   { path: 'employee', loadChildren: () => import('./Dynamic Component/employee/employee.module').then(m => m.EmployeeModule) },
 
   // otherwise redirect to home

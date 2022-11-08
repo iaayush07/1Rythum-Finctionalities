@@ -1,1 +1,111 @@
-<button type="reset" class="btn btn-secondary text-white me-2" (click)="cancleData()">Cancel</button>
+<section>
+    <div class="container h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5 w-100">
+                <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                    <div class="card-body  text-center">
+
+                        <h1 class="mb-4">Add Form</h1>
+                        <form [formGroup]="employeeForm">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="input-group form-outline mb-4">
+                                            <span class="input-group-text">First and last name</span>
+                                            <input type="text" aria-label="First name" class="form-control"
+                                                formControlName="fname">
+                                            <input type="text" aria-label="Last name" class="form-control"
+                                                formControlName="lname">
+                                            <div
+                                                *ngIf=" f['fname'].invalid && ( f['fname'].touched || f['fname'].dirty)">
+                                                <div *ngIf="f['fname'].errors && f['fname'].errors['required']"
+                                                    class="text-danger">
+                                                    Name is Required.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="input-group form-outline mb-4">
+                                            <span class="input-group-text">Email</span>
+                                            <input type="email" aria-label="Email" class="form-control"
+                                                formControlName="email">
+                                            <div
+                                                *ngIf=" f['email'].invalid && ( f['email'].touched || f['email'].dirty)">
+                                                <div *ngIf="f['email'].errors && f['email'].errors['required']"
+                                                    class="text-danger">
+                                                    Name is Required.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="input-group form-outline mb-4">
+                                            <span class="input-group-text">Mobile</span>
+                                            <input type="text" aria-label="mobile" class="form-control" appMaskingNumber
+                                                formControlName="mobile">
+                                            <div
+                                                *ngIf=" f['mobile'].invalid && ( f['mobile'].touched || f['mobile'].dirty)">
+                                                <div *ngIf="f['mobile'].errors && f['mobile'].errors['required']"
+                                                    class="text-danger">
+                                                    Name is Required.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="input-group form-outline mb-4">
+                                            <span class="input-group-text">Salary</span>
+                                            <input type="text" aria-label="salary" class="form-control"
+                                                formControlName="salary">
+                                            <div
+                                                *ngIf=" f['salary'].invalid && ( f['salary'].touched || f['salary'].dirty)">
+                                                <div *ngIf="f['salary'].errors && f['salary'].errors['required']"
+                                                    class="text-danger">
+                                                    Name is Required.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col d-flex justify-content-end">
+                                        <div>
+                                            <button class="btn btn-primary me-3" (click)="onSave()">Save</button>
+                                        </div>
+                                        <div>
+                                            <button type="reset" class="btn btn-secondary text-white me-2"
+                                                (click)="cancleData(content)">Cancel</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <ng-template #content let-modal>
+                            <div class="modal-header">
+                                <h4 class="modal-title">Confirmation of cancle</h4>
+                                <button type="button" class="btn-close" aria-label="Close"
+                                    (click)="modal.dismiss('Cross click')"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Are you sure you want to cancle?&hellip;</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                    (click)="modal.close('Close click')">No</button>
+                                <button type="button" class="btn btn-secondary"
+                                    (click)="modal.close('Close click'); closeForm()">Yes</button>
+                            </div>
+                        </ng-template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

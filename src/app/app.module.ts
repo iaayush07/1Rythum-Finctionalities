@@ -15,6 +15,9 @@ import { fakeBackendProvider } from './_helpers/face-backend';
 import { ErrorInterceptor } from './_helpers/error.interceptor';
 import { JwtInterceptor } from './_helpers/jwt.interceptor';
 import { AuthGuard } from './_helpers/auth.guard';
+import { EmployeeService } from './services/employee.service';
+import { DataCommunicationService } from './services/data-communication.service';
+import { OverlayModule } from '@angular/cdk/overlay';
 
 @NgModule({
   declarations: [
@@ -27,7 +30,8 @@ import { AuthGuard } from './_helpers/auth.guard';
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    OverlayModule
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
@@ -35,8 +39,11 @@ import { AuthGuard } from './_helpers/auth.guard';
 
     // provider used to create fake backend
     fakeBackendProvider,
-    AuthGuard
+    AuthGuard,
+    EmployeeService,
+    DataCommunicationService
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+
 })
 export class AppModule { }
